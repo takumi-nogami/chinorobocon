@@ -1,5 +1,5 @@
 <launch>
-  <node pkg="ros_start" name="alpha" type="commander_alpha.py"/>
+  <node pkg="ros_start" name="alpha" type="commander_beta.py"/>
   <node pkg="rosserial_python" name="motor" type="serial_node.py">
     <param name="port" type="string" value="/dev/ttyUSB0"/>
   </node>
