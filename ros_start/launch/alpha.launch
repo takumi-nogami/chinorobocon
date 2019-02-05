@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="ros_start" name="alpha" type="commander_alpha.py"/>
+  <node name="motor" type="string" value="/dev/ttyUSB0"/>
+  <node name="hand" type="string" value="/dev/ttyUSB1"/>
+</launch>
